@@ -3,15 +3,151 @@
 <head>
     <meta charset="utf-8">
     <meta content="width=device-width, initial-scale=1" name="viewport">
-    <title>Basic Bootstrap Frontend</title>
+    <title>JS-WIN CONSULTANTS LIMITED</title>
     <link href="assets/vendor/Bootstrap/css/bootstrap.min.css" rel="stylesheet"/>
+    <link href="assets/vendor/uikit/css/uikit.min.css" rel="stylesheet"/>
     <link href="assets/vendor/FontAwesome/css/all.min.css" rel="stylesheet"/>
     <link href="assets/css/style.css" rel="stylesheet"/>
 </head>
 <body>
-<h1>Hello, world!</h1>
+<!--Top Header Start -->
+<header class="container">
+    <div class="jwcl-header-top">
+        <ul>
+            <li>
+                <a href="#">主頁</a>
+            </li>
+            <li>
+                <a href="#">繁體</a>
+            </li>
+            <li>
+                <a href="#">簡體</a>
+            </li>
+            <li>
+                <a href="#">English</a>
+            </li>
+        </ul>
+    </div>
+    <div class="jwcl-header-middle d-flex justify-content-end">
+        <ul>
+            <li>
+                <a href="#"><i class="fa-solid fa-phone"></i> 2545 8831</a>
+            </li>
+            <li>
+                <a href="#"><i class="fa-solid fa-envelope"></i> info@wmyuen.com</a>
+            </li>
+        </ul>
+    </div>
+    <div class="jwcl-header-bottom">
+        <img src="assets/images/logo.gif" class="img-fluid jwcl-logo" alt=""/>
+    </div>
+</header>
+<!--Top Header End -->
 
+<!--Banner Start -->
+<section class="container">
+    <div id="carouselExample" class="carousel slide">
+        <div class="carousel-inner">
+            <div class="carousel-item active">
+                <img src="assets/images/banner.jpg" class="d-block w-100" alt="...">
+            </div>
+        </div>
+    </div>
+</section>
+<!--Banner End -->
+
+<!--Navbar Start -->
+<section class="container">
+    <nav class="navbar navbar-expand-lg bg-body-tertiary jwcl-nav">
+        <div class="container-fluid">
+            <button class="navbar-toggler jwcl-mobile-icon" type="button" data-bs-toggle="collapse"
+                    data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false"
+                    aria-label="Toggle navigation">
+                <i class="fa-solid fa-bars"></i>
+            </button>
+            <div class="collapse navbar-collapse justify-content-end" id="navbarNav">
+                <ul class="navbar-nav">
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">服務範圍</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">關於我們</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">聯絡我們</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">有用連結</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">免責聲明</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+</section>
+<!--Navbar End -->
+
+<!--Content Start-->
+<section class="container pt-4 pb-4 jwcl-content">
+    <div class="row">
+        <div class="col-lg-3">
+
+        </div>
+        <div class="col-lg-9">
+            <h6>審計服務</h6>
+            <p>審計服務主要分為法定審計與非法定審計（特殊審查）兩種。</p>
+
+            <h6>法定審計,</h6>
+            <p>
+                根據香港《公司條例》第122條，香港有限公司每年的財務報表必須由香港執業會計師審核，以便公司股東於週年大會省覽。此外，香港稅務局也要求有限公司在呈交利得稅報稅表時，附上已審核的財務報表，以作評稅用途。
+            </p>
+            <p>
+                法定審計是按照香港法例及香港會計師公會所頒布的核數準則進行。在審計過程中，富經驗的會計師可了解客戶的行業特性，企業的運作模式、管理架構、潛在問題及風險管理等，從而發現潛在的管理和經營問題，為客戶提供專業的解決方案。
+            </p>
+            <p>
+                會計師於審計報告中對客戶財務報表的真實性及公平性發表專業意見，並指導公司董事遵照有關條例，履行其應盡的責任。
+            </p>
+            <h6>
+                非法定審計 （特殊審查）
+            </h6>
+            <p>
+                除法定審核外，我們亦會按客戶的個別需要和情況，安排特殊審計，如：
+            </p>
+            <ul>
+                <li>
+                    為獨資及合夥業務作審計，增強帳目之可靠性；
+                </li>
+                <li>
+                    評審公司內部運作、監控系統，庫存盤點系統等；
+                </li>
+                <li>
+                    合併、收購或上市時之審查服務；
+                </li>
+                <li>
+                    針對性報告，例如公司估值及營運效益評估；
+                </li>
+                <li>
+                    調查公司舞弊問題等。
+                </li>
+            </ul>
+        </div>
+    </div>
+</section>
+<!--Content End-->
+
+<!--Footer Start-->
+<footer class="container">
+    <div class="jwcl-footer text-center">
+        <p>
+            賢信會計師事務所有限公司 版權所有2009
+        </p>
+    </div>
+</footer>
+<!--Footer End-->
 <script src="assets/vendor/Bootstrap/js/bootstrap.bundle.min.js"></script>
+<script src="assets/vendor/uikit/js/uikit.min.js"></script>
 <script src="assets/vendor/jQuery/jquery-3.6.4.min.js"></script>
 <script src="assets/vendor/OwlCarousel/js/owl.carousel.min.js"></script>
 <script src="assets/js/main.js"></script>
