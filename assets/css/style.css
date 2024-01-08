@@ -21,6 +21,11 @@ body{
     padding-left: 0;
 }
 
+.carousel-control-prev,
+.carousel-control-next {
+    width: 5%;
+}
+
 .jwcl-header-top{
     background-image: linear-gradient(to right, var(--jwcl-white-color), var(--jwcl-gray-color));
     height: 2rem;
