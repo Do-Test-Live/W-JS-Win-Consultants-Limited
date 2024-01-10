@@ -21,6 +21,10 @@ body{
     padding-left: 0;
 }
 
+table, tr, td{
+    border: 1px solid var(--jwcl-black-color);
+}
+
 .carousel-control-prev,
 .carousel-control-next {
     width: 5%;
@@ -158,4 +162,10 @@ body{
 
 .jwcl-footer p{
     margin-bottom: unset;
+}
+
+@media only screen and (max-width: 768px) {
+    .jwcl-nav .nav-item:not(:last-child){
+        border-right: 2px solid transparent;
+    }
 }
