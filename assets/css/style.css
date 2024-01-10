@@ -126,7 +126,7 @@ table, tr, td{
 .jwcl-card{
     border: 1px solid var(--jwcl-text-color);
     max-width: 250px;
-    height: 350px;
+    height: 250px;
 }
 
 .jwcl-card ul{
