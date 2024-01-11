@@ -3,13 +3,13 @@
     --jwcl-gray-color: #9a9a9a;
     --jwcl-white-color: #ffffff;
     --jwcl-black-color: #000000;
-    --jwcl-light-blue-color: #0074c2;
-    --jwcl-dark-blue-color: #0d5b9d;
+    --jwcl-light-blue-color: #42cea1;
+    --jwcl-dark-blue-color: #175b9c;
     --jwcl-darkish-blue-color: #0b3e6b;
     --jwcl-menu-hover-color: #c1d9ed;
     --jwcl-menu-color: #000066;
     --jwcl-orange-color: #ff9900;
-    --jwcl-text-color: #2E4589;
+    --jwcl-text-color: #175b9c;
 }
 
 body{
@@ -157,7 +157,7 @@ table, tr, td{
 }
 
 .jwcl-footer{
-    background-image: linear-gradient(to right, var(--jwcl-gray-color), var(--jwcl-white-color));
+    background-image: linear-gradient(to right, var(--jwcl-white-color), var(--jwcl-gray-color), var(--jwcl-white-color));
 }
 
 .jwcl-footer p{
