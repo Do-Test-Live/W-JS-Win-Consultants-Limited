@@ -10,6 +10,7 @@
     --jwcl-menu-color: #000066;
     --jwcl-orange-color: #ff9900;
     --jwcl-text-color: #175b9c;
+    --jwcl-whatsapp-red-color: #cd1b27;
 }
 
 body{
@@ -66,6 +67,12 @@ tr:first-child{
 
 .jwcl-header-middle ul li a{
     color: var(--jwcl-black-color);
+}
+
+.jwcl-whats-app-button{
+    padding: 10px 25px;
+    background: var(--jwcl-whatsapp-red-color);
+    color: var(--jwcl-white-color) !important;
 }
 
 .jwcl-logo{
@@ -151,6 +158,16 @@ tr:first-child{
 
 .jwcl-footer p{
     margin-bottom: unset;
+}
+
+.jwcl-footer-whatsapp{
+    position: fixed;
+    bottom: 25px;
+    right: 15px;
+}
+
+.jwcl-footer-whatsapp img{
+    max-width: 55px;
 }
 
 @media only screen and (max-width: 768px) {
