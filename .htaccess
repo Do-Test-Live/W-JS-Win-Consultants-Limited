@@ -1,0 +1,19 @@
+ErrorDocument 404 https://jswin.ngt.hk/home
+
+RewriteEngine on
+
+RewriteRule ^home index.html [NE,L]
+
+RewriteRule ^about about.html [NE,L]
+
+RewriteRule ^contact contact.html [NE,L]
+
+RewriteRule ^audit-services audit-services.html [NE,L]
+
+RewriteRule ^accounting-services accounting-services.html [NE,L]
+
+RewriteRule ^tax-services tax-services.html [NE,L]
+
+RewriteRule ^price-list price-list.html [NE,L]
+
+RewriteRule ^company-secretarial-services company-secretarial-services.html [NE,L]
