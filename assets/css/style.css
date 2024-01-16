@@ -116,10 +116,6 @@ tr:first-child{
     margin-left: auto;
 }
 
-.jwcl-content{
-    padding: 10px;
-}
-
 .jwcl-card{
     border: 1px solid var(--jwcl-text-color);
     max-width: 250px;
@@ -154,6 +150,12 @@ tr:first-child{
 
 .jwcl-footer{
     background:  var(--jwcl-text-color);
+}
+
+h4{
+    margin-bottom: unset;
+    font-weight: bolder;
+    color: var(--jwcl-white-color);
 }
 
 .jwcl-footer p{
