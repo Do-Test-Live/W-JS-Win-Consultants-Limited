@@ -121,6 +121,21 @@ tr:first-child{
     max-width: 250px;
 }
 
+.jwcl-content{
+    padding: 10px;
+}
+
+h3{
+    font-size: 25px;
+    font-weight: bold;
+}
+
+p b{
+    color: var(--jwcl-text-color);
+    font-size: 18px;
+    font-weight: bold;
+}
+
 .jwcl-card ul{
     margin: 0 0 0 0;
     padding: 0;
